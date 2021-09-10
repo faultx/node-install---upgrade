@@ -1,0 +1,20 @@
+f you want to upgrade Node.js from the command line, use the n model within the npm command. The n feature allows you to interact with different Node.js versions.
+
+1. Before updating the Node.js release, check which version you are currently using with:
+
+node -v
+2. Next, clear npm cache with the command:
+
+npm cache clean -f
+3. Install n globally:
+
+npm install -g n
+4. Now that you have n installed, you can use the module to install the latest stable release of Node.js:
+
+sudo n stable
+Alternatively, you can install the Node.js release with the latest features:
+
+sudo n latest
+Or, install a specific version number with:
+
+n [version.number]
